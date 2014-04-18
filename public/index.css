@@ -1,0 +1,92 @@
+h1{
+	font-size: 2.5em;
+}
+
+h3{
+	font-size: 3em;
+}
+
+body{
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+}
+/* Header class */
+.header{
+	padding: 10%;
+	background:grey;
+	text-align: center;
+	}
+
+/* Intro class */
+.intro{
+	padding:1px;
+	background: salmon;
+	color: white;
+	}
+
+.subheading{
+	border-style: solid;
+	border-width: 3px;
+	border-width: white;
+	margin-left: 300px;
+	margin-right: 300px;
+	border-radius: 10px;
+}
+
+button{
+	background: #2F333B;
+	border-radius: 10px;
+	/*margin-left:40%;
+	margin-right: 40%;*/
+	padding: 2%;
+	width: 150px;
+	border:0;
+	/* removes focus-glow-outline*/
+	outline: none;
+}
+
+button:hover{
+	background: #484D55;
+	/*Todo: transiton color */;
+
+}
+
+h4{
+	color: salmon;
+}
+
+.details img{
+	padding:50px;
+}
+
+.details .button{
+	background: salmon;
+
+}
+
+.details .button{
+}
+
+.bullets{
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 50%;
+	text-align: initial;
+}
+
+.list1{
+	float:left;
+	width: 40%;
+}
+
+.list2{
+	float: right;
+	width: 40%;
+}
+
+li{
+	border-bottom: 1px solid #454;
+}
+
+
