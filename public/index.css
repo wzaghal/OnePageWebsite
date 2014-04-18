@@ -1,3 +1,24 @@
+/* Floating fix*/
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+
+/* Clears Floating */
+.clear{
+	clear: both;
+}
+
+*{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}    
+
 h1{
 	font-size: 2.5em;
 }
@@ -11,34 +32,42 @@ body{
 	margin: 0 auto;
 	padding: 0;
 }
-/* Header class */
+
+li{
+	list-style-type: none;
+}
+/* Header */
 .header{
 	padding: 10%;
 	background:grey;
 	text-align: center;
 	}
 
-/* Intro class */
+.header h1{
+	text-transform: uppercase;
+}
+
+/* Intro  */
 .intro{
 	padding:1px;
-	background: salmon;
 	color: white;
+	background:#E97770;
+		background-size:16px 16px;
 	}
-
+	
 .subheading{
 	border-style: solid;
 	border-width: 3px;
 	border-width: white;
 	margin-left: 300px;
 	margin-right: 300px;
+	/*Use width instead of margin? */
 	border-radius: 10px;
 }
 
 button{
 	background: #2F333B;
 	border-radius: 10px;
-	/*margin-left:40%;
-	margin-right: 40%;*/
 	padding: 2%;
 	width: 150px;
 	border:0;
@@ -53,25 +82,39 @@ button:hover{
 }
 
 h4{
-	color: salmon;
+	color: #E97770;
 }
 
+/*Details */
 .details img{
 	padding:50px;
 }
 
-.details .button{
-	background: salmon;
+.details .button1{
+	background: #E97770;
+	color: white;
 
 }
 
-.details .button{
+.details .button2{
+	background: white;
+	border: 1px solid #454;
+	color: #E97770;
+}
+
+.details button{
+	margin: 50px;
+}
+
+.details li{
+	border-bottom: 1px solid #454;
+	
 }
 
 .bullets{
 	padding-left: 15%;
 	padding-right: 15%;
-	padding-bottom: 50%;
+	padding-bottom: 10%;
 	text-align: initial;
 }
 
@@ -85,8 +128,153 @@ h4{
 	width: 40%;
 }
 
-li{
-	border-bottom: 1px solid #454;
+/*Projects*/
+.projects{
+	background: #F3F3F3;
 }
+
+.project1,.project2,.project3{
+	width: 33.3%;
+	float:left;
+}
+
+.projects img{
+
+	border: 10px solid white;
+}
+
+.projects p{
+	text-align: center;
+	padding: 0 30px 0 30px;
+	line-height: 30px;
+}
+
+.projects h3{
+	font-size: 1.3em;
+	color: #E97770;
+}
+
+
+
+/*Footer*/
+
+
+.footer h3{
+	color: white;
+}
+
+.footer p{
+	color: #484D55;
+}
+
+.footer{
+	background: #282B34;
+	/*TODO - Fix weird white padding thing*/
+	padding:1px;
+}
+
+.form{
+	padding-left: 99px;
+	width: 50%;
+	float:left;
+}
+
+.form-buttons{
+	float:left;
+	padding-right: 20px;
+}
+
+
+.name,.email{
+	float:left;
+	padding-right: 20px;
+}
+
+.message{
+	text-align:left;
+	padding-bottom: 30px;
+}
+
+
+.details-input,.message-input{
+	background:#CCCCCC;
+	border: none;
+	border-radius: 10px;
+	height: 50px;
+	width: 250px;
+}
+
+.message-input{
+	height: 250px;
+	width: 520px;
+
+}
+
+/*Sidebar */
+.sidebar{
+	text-align: center;
+	width: 50%;
+	margin-top: 50px;
+	float:right;
+}
+
+.top-info{
+	width: 50%;
+	float: left;
+}
+
+.bottom-info{
+	width: 50%;
+	float:left;
+}
+
+
+/* Placeholder styling */
+::-webkit-input-placeholder {
+   color: #AAAAAA;
+   text-align: left;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #AAAAAA;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #AAAAAA;  
+}
+
+:-ms-input-placeholder {  
+   color: #AAAAAA;  
+}
+
+/* Buttons */
+.bright{
+	color: #F3F3F3;
+	background: #E97770;
+}
+
+
+/*
+.sidebar{
+	width: 50%;
+	float:right;
+}
+
+.form,.sidebar{
+	padding-top: 50px;
+}
+
+.details-input{
+	background:#CCCCCC;
+	border: none;
+	border-radius: 10px;
+	height: 50px;
+	width: 300px;
+}
+*/
+
+
+
+
 
 
