@@ -20,7 +20,7 @@
 }    
 
 h1{
-	font-size: 2.5em;
+	font-size: 35px;
 }
 
 h3{
@@ -31,29 +31,50 @@ body{
 	text-align: center;
 	margin: 0 auto;
 	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+		letter-spacing: 4.5px;
+		font-weight: 300;
 }
 
 li{
 	list-style-type: none;
 }
+
+.title{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+}
+
 /* Header */
 .header{
 	padding: 10%;
-	background:grey;
+	background:black;
+	background:url("images/blurred-texture-background05.jpg") no-repeat;
 	text-align: center;
+	color: white;
+	height: 500px;
 	}
 
 .header h1{
 	text-transform: uppercase;
+	font-weight: 900;
+
 }
 
 /* Intro  */
 .intro{
 	padding:1px;
-	color: white;
-	background:#E97770;
-		background-size:16px 16px;
+	color: #EEEEEE;
+	background-size:16px 16px;
+	background:url('images/noisy-texture.png');
+	height: 700px;
+	font-weight: 400;
 	}
+
+.intro-content{
+	padding-top: 100px;
+}	
 	
 .subheading{
 	border-style: solid;
