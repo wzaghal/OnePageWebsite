@@ -64,8 +64,9 @@ footer{
 button{
 	background: #2F333B;
 	border-radius: 10px;
+	height: 50px;
+	width: 250px;
 	padding: 2%;
-	width: 200px;
 	border:0;
 	/* removes focus-glow-outline*/
 	outline: none;
@@ -178,7 +179,7 @@ button:hover{
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-bottom: 10%;
-	text-align: initial;
+	text-align: left;
 }
 
 .list1{
@@ -192,16 +193,26 @@ button:hover{
 }
 
 
-/*Projects*/
-.projects{
+/*entrepreneur*/
+.entrepreneur{
 	background:url('images/noisy-texture2.png');
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-bottom: 10%;
 }
 
-.projects-content{
+
+.entrepreneur-content{
 	padding-top: 5%;
+}
+
+.entrepreneur img{
+	height: 50%;
+	width: 50%;
+}
+
+.project1 img{
+	width: 32.5%;
 }
 
 .project1,.project2{
@@ -210,21 +221,26 @@ button:hover{
 }
 
 
-.projects img{
+.entrepreneur img{
 
 	border: 10px solid white;
 }
 
-.projects p{
-	text-align: center;
-	padding: 0 30px 0 30px;
+.entrepreneur p{
+	text-align: left;
+	padding: 0 20% 0 20%;
 	line-height: 30px;
+	letter-spacing: 3px;
 }
 
-.projects h3{
+.entrepreneur h3{
 	font-size: 1.3em;
 	color: #E97770;
 }
+
+
+
+
 
 
 
@@ -268,6 +284,8 @@ button:hover{
 	float:left;
 	padding-right: 20px;
 }
+
+
 
 
 .name,.email{
@@ -317,19 +335,24 @@ button:hover{
 	float:left;
 }
 
- .social-media:hover{
+ .social-media:hover,.sidebar a:hover{
 	color:#FFFFFF;
 }
 
 
-/* Placeholder styling */
+/* Placeholder Form styling */
 ::-webkit-input-placeholder {
-   color: #AAAAAA;
+   color: #282B34;
+   padding-left: 10px;
    text-align: left;
+	letter-spacing: 4.5px;
+	font-weight: 600;
+	font-size:  12px;
+
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: #AAAAAA;  
+   color: #AAAAAA;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
@@ -350,6 +373,10 @@ button:hover{
 	background: white;
 	border: 1px solid #CCCCCC;
 	color: #E97770;
+}
+.bright:hover{
+	color:#E37B76;
+
 }
 
 .inverse-bright{
