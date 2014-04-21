@@ -1,2 +1,2 @@
 # One Page Website
-A project designed to get me develop a one page website with HTML/CSS.
+A one page portfolio written in HTML/CSS on a (static) Ruby on Rails backend.
