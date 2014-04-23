@@ -1,4 +1,6 @@
 OnePageWebsite::Application.routes.draw do
+  root :to => 'page#OnePage'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
