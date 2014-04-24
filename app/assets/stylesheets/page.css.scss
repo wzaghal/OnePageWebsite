@@ -5,6 +5,11 @@
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+	transition: 0.5s;
+}
+
+*:hover{
+	transition: 0.5s;
 }
 
 body{
@@ -75,11 +80,7 @@ button{
 	font-size: 1em;
 }
 
-button:hover{
-	background: #484D55;
-	/*Todo: transiton color */;
 
-}
 
 /* Header */
 .header{
@@ -289,6 +290,8 @@ button:hover{
 
 
 
+
+
 .name,.email{
 	float:left;
 	padding-right: 20px;
@@ -311,7 +314,19 @@ button:hover{
 .message-input{
 	height: 250px;
 	width: 520px;
+}
 
+input{
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+input:focus{
+	outline: none;
+}
+
+input:focus{
+	background-color: #FFFFFF;
 }
 
 /*Sidebar */
@@ -348,7 +363,7 @@ button:hover{
    text-align: left;
 	letter-spacing: 4.5px;
 	font-weight: 600;
-	font-size:  12px;
+	font-size:  16px;
 
 }
 
@@ -364,21 +379,35 @@ button:hover{
    color: #AAAAAA;  
 }
 
+
+
+
 /* Buttons */
 .bright{
 	color: #F3F3F3;
 	background: #E97770;
+
 }
 
 .bright:hover{
 	background: white;
-	border: 1px solid #CCCCCC;
-	color: #E97770;
-}
-.bright:hover{
-	color:#E37B76;
+	color: #F3F3F3;
+	background: #F97770;
+
 
 }
+
+
+.dark{
+	background: #282B34;
+	border: 1px solid #CCCCCC;
+}
+
+.dark:hover{
+	border: 1px solid #E6E6E6;
+}
+
+
 
 .inverse-bright{
 	background: white;
@@ -416,4 +445,7 @@ button:hover{
 .clear{
 	clear: both;
 }
+
+
+
 
