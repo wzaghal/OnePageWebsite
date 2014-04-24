@@ -39,8 +39,8 @@
 	<!--Details-->
 	<div class="details">
 		<h2>Developer</h2>
+		<%= image_tag("mac.png", alt: "mac-desktop") %>
 		
-			<img src="images/mac.png" alt="Mac Desktop"/> 
 		
 		
 		<h3>I wear many hats</h3>
@@ -58,13 +58,13 @@
 				<li> 
 					<h5><i class="icon-bullet icon-java"></i>Java</h5>
 					<p>
-						I have used Java to reference, manipulate and create powerful Object-Oriented applications, that are architectured to fit the problem.
+						I have used Java to manipulate and create powerful Object-Oriented applications, that are architectured to fit the problem.
 					</p>
 				</li>
 				<li>
 					<h5><i class="fa fa-cloud icon-bullet"></i>REST</h5> 
 					<p>
-						I have created stand-alone REST APIs that securely create,read,update and delete data.
+						I have created REST APIs that securely create,read,update and delete data.
 					</p>
 				</li>
 			</ul>
@@ -73,7 +73,7 @@
 				<h4> I am learning:</h4>
 				<li>
 					<h5><i class="icon-bullet icon-html icon-bullet"></i>HTML/CSS</h5> 
-					<p>I am using HTML and CSS to create powerful websites, that use responsive design and good design methodologies to create a good user experience.</p>
+					<p>I am using HTML and CSS to create websites, that use responsive design to create a good user experience.</p>
 				</li>
 				<li>
 				 	<h5><i class="icon-bullet icon-javascript"></i>JavaScript</h5> 
@@ -85,6 +85,7 @@
 				 </li>
 			</ul>
 			<div class="clear clearfix"></div>
+			<button class="bright"><%= link_to "Resume", "Wisam_Zaghal_Resume.pdf"%></button>
 		</div>
 	</div>
 
@@ -96,13 +97,13 @@
 				<%= image_tag("buddybench.jpg", alt: "buddybench logo") %>
 				<h3>BuddyBench</h3>
 				<p>BuddyBench was created by five individuals to address the lack of access to mental health resources around Canadian Universities and Colleges.</p>
-				<button class="bright">More info</button>
+				<button class="bright"><%= link_to "More info", "http://www.buddybench.co" %></button>
 			</li>
 			<li class="project2"> 
 				<%= image_tag("griflens.jpg", alt: "BuddyBench logo") %>
 				<h3>griflens</h3>
 				<p>griflens Interactive Story Beads are a fun and collectible way to encourage kids to interact with new technologies in a creative way by creating web stories.</p>
-				<button class="bright">More info</button>
+				<button class="bright"><%= link_to "More info", "http://www.griflens.com" %></button>
 			</li>
 			
 		</ul>
@@ -132,7 +133,7 @@
 						<div class="clear clearfix"></div>
 
 						<p class="message">
-							<input type="text" name="name" class="message-input" placeholder="message" />
+							<textarea name="name" class="message-input" placeholder="message"></textarea> 
 						</p>
 
 						<div class="form-buttons">

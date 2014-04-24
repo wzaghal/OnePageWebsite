@@ -5,6 +5,8 @@ buddybench.jpg: buddybench-282e5e9b30a62e57109d468bcb76cbf6.jpg
 buddybench/index.jpg: buddybench-282e5e9b30a62e57109d468bcb76cbf6.jpg
 griflens.jpg: griflens-36ef9b496813383d62e9d06ddb3ff3df.jpg
 griflens/index.jpg: griflens-36ef9b496813383d62e9d06ddb3ff3df.jpg
+mac.jpg: mac-bec9bd14796b4d9254eb04957fe8a6c6.jpg
+mac/index.jpg: mac-bec9bd14796b4d9254eb04957fe8a6c6.jpg
 mac.png: mac-8e2ffd97cbc4122957943db85ece7399.png
 mac/index.png: mac-8e2ffd97cbc4122957943db85ece7399.png
 noisy-texture.png: noisy-texture-8620e8ca160995f63cdb3b6d8fd88ef8.png
@@ -17,8 +19,8 @@ readme.txt: readme-b9309a1b768977ce90cfb035c35c3de4.txt
 readme/index.txt: readme-b9309a1b768977ce90cfb035c35c3de4.txt
 application.js: application-19ade205bd397f8d66f3c2e211959673.js
 application/index.js: application-19ade205bd397f8d66f3c2e211959673.js
-application.css: application-a79da1cfe76aa6c7911f58384100a938.css
-application/index.css: application-a79da1cfe76aa6c7911f58384100a938.css
+application.css: application-f7ae6d28108601aa67dee3927ed82fdf.css
+application/index.css: application-f7ae6d28108601aa67dee3927ed82fdf.css
 mfizz/LICENSE.txt: mfizz/LICENSE-c340b7374e526a413794c6a7ea768c99.txt
 mfizz/LICENSE/index.txt: mfizz/LICENSE-c340b7374e526a413794c6a7ea768c99.txt
 mfizz/README.md: mfizz/README-7bb6ac0973d4475b8677832503fb3d83.md

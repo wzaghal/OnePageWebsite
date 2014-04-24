@@ -41,7 +41,9 @@ h5{
 }
 /* End of header selectors*/
 
-
+ul{
+	padding-left: 0;
+}
 
 li{
 	list-style-type: none;
@@ -55,6 +57,12 @@ blockquote{
 
 a{
 	text-decoration: none;
+	color:inherit;
+	width: 100%;
+}
+
+button a{
+		padding: 0 70px 0 70px;
 }
 
 /*Used for quotations */
@@ -156,20 +164,14 @@ button{
 
 }
 .details img{
-	width: 1200px;
+	width: 1224px;
 	height: 300px;
-}
-
-.details .button1{
-	background: #E97770;
-	color: white;
-
 }
 
 
 
 .details button{
-	margin: 50px;
+	margin-left: 36%;
 }
 
 .details li{
@@ -182,6 +184,10 @@ button{
 	padding-right: 10%;
 	padding-bottom: 10%;
 	text-align: left;
+}
+
+.bullets h5 i{
+	height: 39px;
 }
 
 .list1{
@@ -316,12 +322,12 @@ button{
 	width: 520px;
 }
 
-input{
+input,textarea{
 	padding-left: 10px;
 	font-size: 20px;
 }
 
-input:focus{
+input:focus, textarea:focus{
 	outline: none;
 }
 
@@ -362,8 +368,10 @@ input:focus{
    padding-left: 10px;
    text-align: left;
 	letter-spacing: 4.5px;
-	font-weight: 600;
+	font-weight: 300;
 	font-size:  16px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#636969;
 
 }
 
