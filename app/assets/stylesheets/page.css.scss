@@ -54,7 +54,7 @@ li{
 
 blockquote{
 	text-align: left;
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 a{
@@ -152,8 +152,13 @@ button{
 	padding-left: 18%;
 	padding-right: 10%;
 	letter-spacing: 3px;
-
 	
+}
+
+.subheading p{
+	
+	padding-left:0;
+	padding-right: 0;
 }
 
 .aboutme-content{
