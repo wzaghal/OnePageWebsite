@@ -5,6 +5,8 @@ buddybench.jpg: buddybench-282e5e9b30a62e57109d468bcb76cbf6.jpg
 buddybench/index.jpg: buddybench-282e5e9b30a62e57109d468bcb76cbf6.jpg
 griflens.jpg: griflens-36ef9b496813383d62e9d06ddb3ff3df.jpg
 griflens/index.jpg: griflens-36ef9b496813383d62e9d06ddb3ff3df.jpg
+mac-stock.jpg: mac-stock-f334380bd1dbf95778852aefce8bfba1.jpg
+mac-stock/index.jpg: mac-stock-f334380bd1dbf95778852aefce8bfba1.jpg
 mac.jpg: mac-bec9bd14796b4d9254eb04957fe8a6c6.jpg
 mac/index.jpg: mac-bec9bd14796b4d9254eb04957fe8a6c6.jpg
 mac.png: mac-8e2ffd97cbc4122957943db85ece7399.png
@@ -17,10 +19,12 @@ rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 readme.txt: readme-b9309a1b768977ce90cfb035c35c3de4.txt
 readme/index.txt: readme-b9309a1b768977ce90cfb035c35c3de4.txt
+wisam.jpg: wisam-0738074ba2fe5c088cbb39bb42baf51a.jpg
+wisam/index.jpg: wisam-0738074ba2fe5c088cbb39bb42baf51a.jpg
 application.js: application-19ade205bd397f8d66f3c2e211959673.js
 application/index.js: application-19ade205bd397f8d66f3c2e211959673.js
-application.css: application-f7ae6d28108601aa67dee3927ed82fdf.css
-application/index.css: application-f7ae6d28108601aa67dee3927ed82fdf.css
+application.css: application-296df69260023872d167b468f32a4712.css
+application/index.css: application-296df69260023872d167b468f32a4712.css
 mfizz/LICENSE.txt: mfizz/LICENSE-c340b7374e526a413794c6a7ea768c99.txt
 mfizz/LICENSE/index.txt: mfizz/LICENSE-c340b7374e526a413794c6a7ea768c99.txt
 mfizz/README.md: mfizz/README-7bb6ac0973d4475b8677832503fb3d83.md
